@@ -1,5 +1,5 @@
 {
-    "name": "malkusch/bav",
+    "name": "pcsg/bav",
     "type": "library",
     "description": "BAV provides validation for German Bank Accounts (Konto)",
     "keywords": ["bank", "account", "bankaccount", "validation", "check", "konto"],
@@ -11,14 +11,26 @@
             "email": "markus@malkusch.de",
             "homepage": "http://markus.malkusch.de",
             "role": "Developer"
+        },
+        {
+            "name": "Jan Wennrich",
+            "email": "info@pcsg.de",
+            "homepage": "https://pcsg.de",
+            "role": "Developer"
         }
     ],
     "autoload": {
         "files": ["autoloader/autoloader.php"]
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JanWennrich/php-index.git"
+        }
+    ],
     "require": {
         "php": ">=5.4",
-        "malkusch/php-index": "~0.1"
+        "pcsg/php-index": "~0.1"
     },
     "suggest": {
         "ext-PDO": "Allows storing bank information in a database",
