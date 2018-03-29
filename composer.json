@@ -31,7 +31,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "pcsg/php-index": "~0.1"
+        "pcsg/php-index": "dev-master"
     },
     "suggest": {
         "ext-PDO": "Allows storing bank information in a database",
